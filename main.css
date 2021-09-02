@@ -1,0 +1,154 @@
+body {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-family: "Roboto", sans-serif;
+	background-color: #eee;
+	z-index: -1 !important;
+}
+
+header {
+	background-color: #eee;
+	display: flex;
+	position: fixed;
+	justify-content: center;
+	margin: 0;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+	height: 3em;
+	line-height: 3em;
+	width: 100%;
+	z-index: 1 !important;
+	filter: drop-shadow(0 0 0.3em rgba(0, 0, 0, 0.5));
+}
+
+header * {
+	display: inline;
+	height: 3em;
+}
+
+header .logo-header {
+	border-radius: 50%;
+}
+
+header ul {
+	padding: 0;
+}
+
+header li {
+	margin-left: 2em;
+}
+
+header a {
+	display: inline-block;
+	position: relative;
+	padding: 0.5em;
+	margin: -0.5em;
+
+	text-decoration: none;
+	font-weight: 700;
+	color: #666;
+	transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+
+header a:hover {
+	color: green;
+	filter: drop-shadow(0 0.2em 0.2em rgba(0, 0, 0, 0.2));
+	transform: translateY(-0.2em);
+}
+
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+section h1 {
+	font-size: 3.5em;
+}
+
+section h2 {
+	font-size: 2.5em;
+}
+
+section h3 {
+	font-size: 1.5em;
+}
+
+section ul {
+	list-style: none;
+	padding: 0;
+}
+
+section li:first-child {
+	margin-top: 0;
+}
+
+section li {
+	list-style: none;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+section li:last-child {
+	margin-bottom: 0;
+}
+
+section p:first-child {
+	margin-top: 0;
+}
+
+section p {
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+section p:last-child {
+	margin-bottom: 0;
+}
+
+section a {
+	display: inline-block;
+	position: relative;
+	padding: 0.5em;
+	margin: -0.5em;
+
+	color: #666;
+	text-decoration: none;
+	font-weight: 700;
+	transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+section a:hover {
+	color: green;
+	filter: drop-shadow(0 0.2em 0.2em rgba(0, 0, 0, 0.2));
+	transform: translateY(-0.2em);
+}
+
+.section-inner {
+	width: 55em;
+}
+
+.logo-main {
+	padding: 0;
+	width: 20em;
+	border-radius: 50%;
+	margin-bottom: 1em;
+	transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.logo-main:hover {
+	filter: drop-shadow(0 0.5em 0.2em rgba(0, 0, 0, 0.2));
+	transform: translateY(-0.5em);
+}
+
+footer {
+	background-color: #eee;
+	text-align: center;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+}
