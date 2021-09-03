@@ -29,11 +29,16 @@ header * {
 }
 
 header .logo-header {
+	margin-right: 2em;
 	border-radius: 50%;
 }
 
 header ul {
 	padding: 0;
+}
+
+header li:first-child {
+	margin-left: 0;
 }
 
 header li {
@@ -90,11 +95,6 @@ section li:first-child {
 section li {
 	list-style: none;
 	margin-top: 1.25em;
-	margin-bottom: 1.25em;
-}
-
-section li:last-child {
-	margin-bottom: 0;
 }
 
 section p:first-child {
@@ -151,4 +151,34 @@ footer {
 	text-align: center;
 	padding-top: 1.25em;
 	padding-bottom: 1.25em;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+	header .logo-header {
+		display: none;
+	}
+
+	body {
+		font-size: 10px;
+	}
+
+	.section-inner {
+		width: 25em;
+	}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+	header .logo-header {
+		display: none;
+	}
+
+	body {
+		font-size: 10px;
+	}
+
+	.section-inner {
+		width: 25em;
+	}
 }
