@@ -129,7 +129,7 @@ section a:hover {
 }
 
 .section-inner {
-	width: 55em;
+	width: 50em;
 }
 
 .logo-main {
@@ -153,22 +153,20 @@ footer {
 	padding-bottom: 1.25em;
 }
 
-/* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
 	header .logo-header {
 		display: none;
 	}
 
 	body {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.section-inner {
-		width: 25em;
+		width: 50em;
 	}
 }
 
-/* Media Queries: Tabled Portrait */
 @media screen and (max-width: 768px) {
 	header .logo-header {
 		display: none;
@@ -179,6 +177,6 @@ footer {
 	}
 
 	.section-inner {
-		width: 25em;
+		width: 30em;
 	}
 }
