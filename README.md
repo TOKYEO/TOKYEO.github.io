@@ -8,4 +8,4 @@
 - Random stuff I want to put on the website
 
 ## Custom domain
-- I have a custom domain: tokyeo.net(https://tokyeo.net/)
+- I have a custom domain: [tokyeo.net](https://tokyeo.net/)
