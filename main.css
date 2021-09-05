@@ -127,8 +127,8 @@ footer {
 		width: 100%;
 	}
 
-	header li:first-child {
-		display: list-item;
+	header li:first-child, li:last-child {
+		display: inline;
 	}
 
 	header li {
