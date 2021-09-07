@@ -10,34 +10,34 @@ body {
 	cursor: default;
 }
 
-h1 {
+body h1 {
 	font-size: 4em;
 }
 
-h2 {
+body h2 {
 	font-size: 3em;
 }
 
-h3 {
+body h3 {
 	font-size: 2em;
 }
 
-ul {
+body ul {
 	padding: 0;
 	list-style: none;
 	text-align: center;
 }
 
-li:first-child {
+body li:first-child {
 	margin-top: 0;
 }
 
-li {
+body li {
 	margin-top: 1em;
 	text-align: center;
 }
 
-a {
+body a {
 	color: #666;
 	text-decoration: none;
 	font-weight: 700;
@@ -92,12 +92,12 @@ footer {
 }
 
 @media (hover: hover) {
-	a {
+	body a {
 		color: #666;
 		transition: color 0.3s ease-in-out;
 	}
 
-	a:hover {
+	body a:hover {
 		color: green;
 	}
 }
